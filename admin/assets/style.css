@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #f6f5f4; 
+	max-width: 100vw; 
+	overflow-x: hidden;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a, a:visited {color: #444;text-decoration: none;}
+a:hover {text-decoration: none; color: #222;}
+
+.btn-info {
+    background: #00bcd4;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-warning {
+    background: #FF9800;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-danger {
+    background: #FF0000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.67%;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+
+/*admin nav*/
+.admin-header {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+}
+.admin-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.admin-nav li {
+    float: left;
+}
+
+.admin-nav li a {
+    display: block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.admin-nav li a:hover {
+    background-color: #3f51b5;
+    transition: all 0.4s;
+}
+.admin-nav li a.active {
+    background: #3f51b5;
+}
+
+/* input styling */
+form {
+	display: block;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    outline: none;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+    display: block;
+}
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: #ddd;
+    cursor: pointer;
+}
+.choice {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.admin-bar-btn {
+    padding: 8px 20px;
+    float: right;
+    background: #fff;
+    text-decoration: none;
+    margin: 7px 0;
+    border-radius: 3px;
+    text-align: right;
+}
+.mt-3 { 
+    margin-top: 20px;
+}
+
+.main-container {
+    width: 100%;
+    float: left;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #222222;
+    color: white;
+}
+
+.table-2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.d-box {
+    background: #4159b5;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px 20px;
+    min-height: 225px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.d-num {
+    font-size: 56px;
+}
